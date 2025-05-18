@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 245, 245, 245;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.pokemon-type {
+  @apply px-2 py-1 rounded-full text-xs font-semibold mr-1 text-white;
+}
+
+.type-Normal { @apply bg-gray-400; }
+.type-Fire { @apply bg-red-500; }
+.type-Water { @apply bg-blue-500; }
+.type-Electric { @apply bg-yellow-400; }
+.type-Grass { @apply bg-green-500; }
+.type-Ice { @apply bg-blue-300; }
+.type-Fighting { @apply bg-red-700; }
+.type-Poison { @apply bg-purple-500; }
+.type-Ground { @apply bg-yellow-700; }
+.type-Flying { @apply bg-indigo-300; }
+.type-Psychic { @apply bg-pink-500; }
+.type-Bug { @apply bg-green-600; }
+.type-Rock { @apply bg-yellow-800; }
+.type-Ghost { @apply bg-purple-700; }
+.type-Dragon { @apply bg-indigo-700; }
+.type-Dark { @apply bg-gray-800; }
+.type-Steel { @apply bg-gray-500; }
+.type-Fairy { @apply bg-pink-300; }
